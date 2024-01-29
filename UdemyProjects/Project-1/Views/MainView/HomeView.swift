@@ -12,6 +12,7 @@ struct HomeView: View {
         VStack {
             HeaderView()
             BodyView()
+            FooterView()
         }
         .edgesIgnoringSafeArea(.top)
     }

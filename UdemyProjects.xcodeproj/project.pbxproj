@@ -14,6 +14,7 @@
 		0A6B096F2B679ACA00AEB620 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B096E2B679ACA00AEB620 /* HeaderView.swift */; };
 		0A6B09712B67A06D00AEB620 /* RoundedRectangleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B09702B67A06D00AEB620 /* RoundedRectangleImage.swift */; };
 		0A6B09732B67A13F00AEB620 /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B09722B67A13F00AEB620 /* BodyView.swift */; };
+		0A6B09762B67AE6000AEB620 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B09752B67AE6000AEB620 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		0A6B096E2B679ACA00AEB620 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		0A6B09702B67A06D00AEB620 /* RoundedRectangleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleImage.swift; sourceTree = "<group>"; };
 		0A6B09722B67A13F00AEB620 /* BodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
+		0A6B09752B67AE6000AEB620 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				0A6B096A2B678A4800AEB620 /* MainView */,
-				0A6B096B2B678A4E00AEB620 /* Components */,
+				0A6B096B2B678A4E00AEB620 /* SubViews */,
 				0A6B09742B67A86D00AEB620 /* Models */,
 			);
 			path = Views;
@@ -99,13 +101,14 @@
 			path = MainView;
 			sourceTree = "<group>";
 		};
-		0A6B096B2B678A4E00AEB620 /* Components */ = {
+		0A6B096B2B678A4E00AEB620 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
 				0A6B096E2B679ACA00AEB620 /* HeaderView.swift */,
 				0A6B09722B67A13F00AEB620 /* BodyView.swift */,
+				0A6B09752B67AE6000AEB620 /* FooterView.swift */,
 			);
-			path = Components;
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 		0A6B09742B67A86D00AEB620 /* Models */ = {
@@ -189,6 +192,7 @@
 				0A6B096D2B678A8000AEB620 /* HomeView.swift in Sources */,
 				0A6B096F2B679ACA00AEB620 /* HeaderView.swift in Sources */,
 				0A6B09732B67A13F00AEB620 /* BodyView.swift in Sources */,
+				0A6B09762B67AE6000AEB620 /* FooterView.swift in Sources */,
 				0A176B372B67887E00E33FA0 /* UdemyProjectsApp.swift in Sources */,
 				0A6B09712B67A06D00AEB620 /* RoundedRectangleImage.swift in Sources */,
 			);
