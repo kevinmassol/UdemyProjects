@@ -11,7 +11,7 @@ import SwiftUI
 struct UdemyProjectsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
