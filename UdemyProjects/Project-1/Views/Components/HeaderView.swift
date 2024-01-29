@@ -8,9 +8,6 @@
 import SwiftUI
 
 struct HeaderView: View {
-    
-    let color: Color = Color(red: 12 / 255, green: 95 / 255, blue: 175 / 255)
-    
     var body: some View {
         VStack {
             Image("bg")
@@ -22,7 +19,7 @@ struct HeaderView: View {
                 Text("I 💙 Santorini")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
-                    .foregroundStyle(color)
+                    .foregroundStyle(Color(.greekBlue))
                 Image("flag")
                     .resizable()
                     .frame(width: 75, height: 75)
@@ -31,7 +28,7 @@ struct HeaderView: View {
             .offset(y: -35)
             Divider()
                 .frame(width: 350, height: 2)
-                .overlay(color)
+                .overlay(Color(.greekBlue))
         }
     }
 }
