@@ -11,9 +11,9 @@ struct HomeView: View {
     var body: some View {
         VStack {
             HeaderView()
+            BodyView()
         }
         .edgesIgnoringSafeArea(.top)
-        Spacer()
     }
 }
 
