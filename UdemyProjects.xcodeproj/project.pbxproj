@@ -16,6 +16,7 @@
 		0A6B09732B67A13F00AEB620 /* BodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B09722B67A13F00AEB620 /* BodyView.swift */; };
 		0A6B09762B67AE6000AEB620 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B09752B67AE6000AEB620 /* FooterView.swift */; };
 		0A6B097D2B69925700AEB620 /* HomeView-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B097C2B69925700AEB620 /* HomeView-2.swift */; };
+		0A6B09812B6FAF2F00AEB620 /* ActionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B09802B6FAF2F00AEB620 /* ActionButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0A6B09722B67A13F00AEB620 /* BodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyView.swift; sourceTree = "<group>"; };
 		0A6B09752B67AE6000AEB620 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		0A6B097C2B69925700AEB620 /* HomeView-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView-2.swift"; sourceTree = "<group>"; };
+		0A6B09802B6FAF2F00AEB620 /* ActionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		0A6B097A2B6991AD00AEB620 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				0A6B09802B6FAF2F00AEB620 /* ActionButtonView.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				0A6B096F2B679ACA00AEB620 /* HeaderView.swift in Sources */,
 				0A6B09732B67A13F00AEB620 /* BodyView.swift in Sources */,
 				0A6B09762B67AE6000AEB620 /* FooterView.swift in Sources */,
+				0A6B09812B6FAF2F00AEB620 /* ActionButtonView.swift in Sources */,
 				0A176B372B67887E00E33FA0 /* UdemyProjectsApp.swift in Sources */,
 				0A6B09712B67A06D00AEB620 /* RoundedRectangleImage.swift in Sources */,
 			);
